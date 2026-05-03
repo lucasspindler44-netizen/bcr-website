@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontakt zur BCR Beaver Creek Ranch in Waalhaupten. Einstellplatz anfragen, Besichtigung vereinbaren oder per WhatsApp schreiben.">
+  <title>Kontakt & Anfrage | BCR Beaver Creek Ranch</title>
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="BCR Beaver Creek Ranch Startseite"><span class="brand-mark">BCR</span><span><strong>Beaver Creek Ranch</strong><small>Westernstall Waalhaupten</small></span></a>
+    <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="index.html">Startseite</a><a href="anlage.html">Anlage</a><a href="haltung.html">Haltung</a><a href="leistungen.html">Leistungen</a><a href="aktuelles.html">Aktuelles</a><a href="kontakt.html" class="nav-cta" aria-current="page">Freien Platz anfragen</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-section contact-section">
+      <div class="section-inner">
+        <div class="contact-head">
+          <p class="eyebrow">Kontakt & Anfrage</p>
+          <h1>Lass uns schauen, ob es passt.</h1>
+          <p>Schreib uns kurz, wer du bist und was dein Pferd braucht. Dann melden wir uns für alles Weitere.</p>
+        </div>
+        <div class="contact-grid">
+          <aside class="contact-box">
+            <h2>BCR Beaver Creek Ranch</h2>
+            <p>Mühlanger 2<br>86875 Waal / Waalhaupten<br>Bayern, Deutschland</p>
+            <a href="tel:+491629829598">+49 162 9829598</a>
+            <a href="mailto:Lucasspindler44@gmail.com">Lucasspindler44@gmail.com</a>
+            <a class="btn whatsapp" href="https://wa.me/491629829598?text=Hallo%20BCR%20Beaver%20Creek%20Ranch%2C%20ich%20interessiere%20mich%20f%C3%BCr%20einen%20Einstellplatz%20oder%20eine%20Besichtigung.%20Infos%20zu%20mir%20und%20meinem%20Pferd%3A" target="_blank" rel="noopener">WhatsApp schreiben</a>
+            <p class="hint">Bitte gib Infos zu dir und deinem Pferd an.</p>
+          </aside>
+
+          <form id="inquiry-form" class="contact-form">
+            <label>Vor- & Nachname<input type="text" name="name" autocomplete="name" required></label>
+            <label>Telefonnummer<input type="tel" name="phone" autocomplete="tel" required></label>
+            <label>E-Mail<input type="email" name="email" autocomplete="email" required></label>
+            <label>Pferd (Alter, Rasse, Besonderheiten)<textarea name="horse" rows="4" required></textarea></label>
+            <label>Gewünschter Starttermin<input type="text" name="start" placeholder="z. B. ab Juli oder flexibel"></label>
+            <label>Aktueller Standort des Pferdes<input type="text" name="location"></label>
+            <label class="full">Gibt es noch etwas, das du uns mitteilen möchtest?<textarea name="message" rows="5"></textarea></label>
+            <button class="btn btn-primary full" type="submit">Anfrage per E-Mail senden</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="map-wrap" aria-label="Google Maps Karte BCR Beaver Creek Ranch">
+          <iframe title="Google Maps: BCR Beaver Creek Ranch" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=M%C3%BChlanger%202%2C%2086875%20Waal%20Waalhaupten%2C%20Deutschland&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="impressum" class="legal page-section band">
+      <div class="section-inner legal-inner">
+        <h2>Impressum</h2>
+        <p><strong>BCR Beaver Creek Ranch</strong><br>Familie Spindler<br>Mühlanger 2<br>86875 Waal / Waalhaupten<br>Deutschland</p>
+        <p>Telefon: <a href="tel:+491629829598">+49 162 9829598</a><br>E-Mail: <a href="mailto:Lucasspindler44@gmail.com">Lucasspindler44@gmail.com</a></p>
+        <p>Verantwortlich für den Inhalt: Familie Spindler, Anschrift wie oben.</p>
+      </div>
+    </section>
+
+    <section id="datenschutz" class="legal page-section">
+      <div class="section-inner legal-inner">
+        <h2>Datenschutz</h2>
+        <p>Wir verwenden deine Angaben aus dem Kontaktformular nur, um deine Anfrage zu beantworten. Die Übermittlung erfolgt über dein eigenes E-Mail-Programm an die angegebene Kontaktadresse.</p>
+        <p>Beim Laden der Google-Maps-Karte können Daten an Google übertragen werden. Wenn du das nicht möchtest, nutze gern Telefon, E-Mail oder WhatsApp.</p>
+        <p>Du kannst jederzeit Auskunft, Berichtigung oder Löschung deiner personenbezogenen Daten anfragen. Schreib dazu an <a href="mailto:Lucasspindler44@gmail.com">Lucasspindler44@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 BCR Beaver Creek Ranch<br><span>Westernstall in Bayern · Einstellplätze bei Waal · Pferdestall mit Auslauf und Betreuung</span></p>
+    <nav aria-label="Footer Navigation"><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a><a href="kontakt.html">Freien Platz anfragen</a></nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
