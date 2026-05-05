@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Besichtigung der BCR Beaver Creek Ranch in Waalhaupten vereinbaren. Westernstall bei Waal kennenlernen und Fragen vor Ort klären.">
+  <title>Besichtigung vereinbaren | BCR Beaver Creek Ranch</title>
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="BCR Beaver Creek Ranch Startseite">
+      <span class="brand-mark">BCR</span>
+      <span><strong>Beaver Creek Ranch</strong><small>Westernstall Waalhaupten</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Navigation öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="index.html">Startseite</a>
+      <a href="anlage.html">Anlage</a>
+      <a href="haltung.html">Haltung</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="aktuelles.html">Aktuelles</a>
+      <a href="einstellplatz.html" class="nav-cta">Freien Platz anfragen</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-section contact-section">
+      <div class="section-inner form-page">
+        <div class="contact-head">
+          <p class="eyebrow">Besichtigung</p>
+          <h1>Besichtigung vereinbaren</h1>
+          <p>Für einen Termin brauchen wir nur deine Kontaktdaten und ein paar Zeitfenster. Alles Weitere klären wir vor Ort oder am Telefon.</p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-box">
+            <h2>BCR Beaver Creek Ranch</h2>
+            <p>Mühlanger 2<br>86875 Waal / Waalhaupten<br>Bayern, Deutschland</p>
+            <a href="tel:+491629829598">+49 162 9829598</a>
+            <a href="mailto:Lucasspindler44@gmail.com">Lucasspindler44@gmail.com</a>
+            <a class="btn whatsapp" href="https://wa.me/491629829598?text=Hallo%20BCR%20Beaver%20Creek%20Ranch%2C%20ich%20m%C3%B6chte%20gerne%20eine%20Besichtigung%20vereinbaren.%20M%C3%B6gliche%20Zeiten%3A" target="_blank" rel="noopener">WhatsApp schreiben</a>
+            <p class="hint">Bitte gib kurz an, wann du Zeit hast.</p>
+          </aside>
+
+          <form id="besichtigung" class="contact-form form-card" data-form-type="visit">
+            <label>Vor- & Nachname<input type="text" name="name" autocomplete="name" required></label>
+            <label>Telefonnummer<input type="tel" name="phone" autocomplete="tel" required></label>
+            <label>E-Mail<input type="email" name="email" autocomplete="email"></label>
+            <label>Wunschtermin / Zeitraum<input type="text" name="preferredDate" placeholder="z. B. Freitag Nachmittag, Samstag Vormittag" required></label>
+            <label>Worum geht es?<select name="interest"><option>Besichtigung wegen Einstellplatz</option><option>Anlage kennenlernen</option><option>Reitbeteiligung</option><option>Sonstiges</option></select></label>
+            <label>Wann bist du gut erreichbar?<input type="text" name="availability" placeholder="z. B. ab 18 Uhr"></label>
+            <label class="full">Kurze Info vorab<textarea name="message" rows="4" placeholder="z. B. ab wann du suchst oder was dir wichtig ist"></textarea></label>
+            <button class="btn btn-secondary full" type="submit">Besichtigung per E-Mail anfragen</button>
+            <p class="form-status full" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="map-wrap" aria-label="Google Maps Karte BCR Beaver Creek Ranch">
+          <iframe title="Google Maps: BCR Beaver Creek Ranch" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=M%C3%BChlanger%202%2C%2086875%20Waal%20Waalhaupten%2C%20Deutschland&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 BCR Beaver Creek Ranch<br><span>Westernstall in Bayern · Einstellplätze bei Waal · Pferdestall mit Auslauf und Betreuung</span></p>
+    <nav aria-label="Footer Navigation"><a href="kontakt.html#impressum">Impressum</a><a href="kontakt.html#datenschutz">Datenschutz</a><a href="einstellplatz.html">Freien Platz anfragen</a></nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
